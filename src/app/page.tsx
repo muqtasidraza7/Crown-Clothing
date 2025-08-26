@@ -1,5 +1,5 @@
 import MainCard from "./components/MainCard";
-const page = () => {
+const Page = () => {
   return (
     <>
       <div className="mt-12 px-10">
@@ -47,4 +47,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

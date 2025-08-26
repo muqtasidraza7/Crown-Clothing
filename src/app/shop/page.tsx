@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import MainShop from "../components/MainShop";
 import { ProductItemsContext } from "@/app/store/ItemsStore";
 
-const page = () => {
+const Page = () => {
   const contex = useContext(ProductItemsContext);
   if (!contex) {
     throw new Error("Context is undefined");
@@ -41,4 +41,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
